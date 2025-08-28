@@ -1,0 +1,41 @@
+.foot {
+  background-color: #f6c9f0;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: fit-content;
+  margin: 10px;
+}
+.top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+li {
+  padding-right: 20px;
+  list-style: none;
+  padding: 10px;
+  border-bottom: 1px solid white;
+}
+li:hover {
+  cursor: pointer;
+}
+.bottom p {
+  text-align: center;
+}
+.icon {
+  margin: 20px;
+  font-size: 28px;
+}
+.icon a {
+  color: black;
+}
+
+/* dark */
+body.dark .foot {
+  background-color: #1e293b;
+  color: #f8fafc;
+  border-color: #334155;
+}
+body.dark .icon a {
+  color: azure;
+}

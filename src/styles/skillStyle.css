@@ -1,0 +1,101 @@
+.donut-chart {
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+.donut-chart svg {
+  transform: rotate(-90deg);
+}
+
+.donut-bg {
+  fill: none;
+  stroke: #dcd0ff;
+  stroke-width: 16;
+}
+
+.donut-progress {
+  fill: none;
+  stroke-width: 16;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 1s ease-out;
+}
+
+.donut-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.donut-label h3 {
+  font-size: 0.9rem;
+  margin: 0;
+  color: #333;
+}
+
+.donut-label span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+}
+
+.skill-place {
+  background-color: #f6c9f0;
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  height: fit-content;
+}
+
+.skill {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  justify-content: center;
+  height: fit-content;
+  width: 80vw;
+
+  margin: 10px;
+}
+
+/* dark */
+body.dark .skill {
+  color: #f1f5f9;
+}
+
+body.dark .donut-chart {
+  background: rgba(30, 41, 59, 0.25);
+}
+
+body.dark .donut-label h3 {
+  color: #e2e8f0;
+}
+
+body.dark .donut-label span {
+  color: #60a5fa;
+}
+
+body.dark .skill-place {
+  background-color: #1e293b;
+  color: #f8fafc;
+  border-color: #334155;
+}
+
+/* mobile */
+@media screen and (max-width: 520px) {
+  .skill {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    justify-content: center;
+    height: fit-content;
+    width: 80vw;
+    margin: 10px;
+  }
+}
