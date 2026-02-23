@@ -47,7 +47,7 @@ const About = () => {
           <div className="about-img">
 		  
             <img
-              src="https://i.ibb.co/0pMnvksT/IMG-20250521-103600.jpg"
+              src="https://i.ibb.co/HfMJxphF/logu-removebg-preview.png "
               alt="img"
             />
           </div>
