@@ -11,7 +11,7 @@
 }
 
 .about {
-  background-color: bisque;
+  background-color: light brown;
   border: 1px solid black;
   border-radius: 10px;
   display: flex;
@@ -27,7 +27,7 @@
   font-size: 3rem;
 }
 .about-me strong {
-  color:bisque ;
+  color:light brown ;
 }
 strong:hover {
   cursor: none;
