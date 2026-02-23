@@ -45,7 +45,7 @@ const Footer = ({ scrollToSection, refs }) => {
         </div>
       </div>
       <div className="bottom">
-        <p>Developed by Loga Kumaresan © 2025</p>
+        <p>Developed by Loga Kumaresan © 2026</p>
       </div>
     </div>
   );
