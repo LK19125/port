@@ -27,7 +27,7 @@
   font-size: 3rem;
 }
 .about-me strong {
-  color: #2f4156;
+  color: bisque;
 }
 strong:hover {
   cursor: none;
@@ -38,10 +38,10 @@ strong:hover {
   white-space: nowrap;
   overflow: hidden;
   width: 0;
-  animation: omprakash 4s steps(22) forwards;
+  animation: Logakumaresan 4s steps(22) forwards;
 }
 
-@keyframes omprakash {
+@keyframes Logakumaresan {
   from {
     width: 0;
   }
