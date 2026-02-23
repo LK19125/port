@@ -41,10 +41,7 @@ const About = () => {
                   Logakumaresan
                 </strong>
               </div>
-              I'm a passionate <strong>Web Developer</strong> with a knack for
-              creating engaging and efficient solutions. With a strong
-              foundation in web development, I enjoy transforming ideas into
-              digital reality.
+              I'm a passionate <strong>Web Developer</strong>, To apply my academic knowledge and technical skills in a practical project environment, gain hands-on experience, and contribute effectively to innovative solutions while enhancing my learning and professional growth.
             </p>
           </div>
           <div className="about-img">
