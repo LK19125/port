@@ -15,7 +15,7 @@ const About = () => {
           observer.unobserve(entry.target);
         }
       },
-      { threshold: 0.2 }
+      { threshold: 0.2 },
     );
 
     if (currentRef) observer.observe(currentRef);
@@ -41,11 +41,14 @@ const About = () => {
                   Logakumaresan
                 </strong>
               </div>
-              I'm a passionate <strong>Web Developer</strong>, To apply my academic knowledge and technical skills in a practical project environment, gain hands-on experience, and contribute effectively to innovative solutions while enhancing my learning and professional growth.
+              I'm a passionate <strong>Web Developer</strong>, To apply my
+              academic knowledge and technical skills in a practical project
+              environment, gain hands-on experience, and contribute effectively
+              to innovative solutions while enhancing my learning and
+              professional growth.
             </p>
           </div>
           <div className="about-img">
-		  
             <img
               src="https://i.ibb.co/HfMJxphF/logu-removebg-preview.png "
               alt="img"
