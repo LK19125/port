@@ -5,13 +5,13 @@
   direction: row;
 }
 .title {
-  color: light brown;
+  color: lightbrown;
   text-align: center;
   margin-bottom: 20px;
 }
 
 .about {
-  background-color: light brown;
+  background-color: lightbrown;
   border: 1px solid black;
   border-radius: 10px;
   display: flex;
@@ -27,7 +27,7 @@
   font-size: 3rem;
 }
 .about-me strong {
-  color:light brown ;
+  color:lightbrown ;
 }
 strong:hover {
   cursor: none;
